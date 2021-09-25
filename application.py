@@ -9,4 +9,4 @@ def index():
 
 @app.route("/<string:name>/<string:year>/<string:month>/<string:day>")
 def hello(name, year, month, day):
-    return f"Hello, {str(name)} \nTu fecha de nacimiento es {str(year)}/{str(month)}/{str(day)}"
+    return f"Hello, {str(name)} <br>Tu fecha de nacimiento es {str(year)}/{str(month)}/{str(day)}"
